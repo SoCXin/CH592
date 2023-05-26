@@ -1,0 +1,41 @@
+{
+    "type":"SoC",
+    "name":"CH592",
+    "title": "WCH SoC CH592",
+    "description":"WCH RISC-V BLE SoC",
+    "version":"1.0.0",
+    "Core": {
+        "num": 1,
+        "type":"RISC-V",
+        "Freq": 20,
+        "DMIPS": 30,
+        "CoreMark": 60
+    },
+    "manufacturer": {
+        "vendor":"WCH",
+        "homepage": "http://www.wch.cn/products/CH592.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CH592.git"
+    },
+    "series":["CH592"],
+    "package":["QFN32","QFN28"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "EMC": {
+        "EFT": 2000,
+        "ESD": 4000
+    },
+    "upload": {
+        "ISP": true,
+        "IAP": true,
+        "SWD": true,
+        "speed": 115200
+    },
+    "keywords": [
+        "RISC-V",
+        "WCH",
+        "DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.7V"
+    ]
+}
